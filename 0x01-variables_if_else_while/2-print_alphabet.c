@@ -1,19 +1,18 @@
 #include <stdio.h>
-/*
- * main - A program that prints alphabet
- * Return: 0 (Success)
+/**
+ * main - Entry point
+ * Return: 0 Sucess
  */
 int main(void)
 {
-	char alph;
+	char c;
 
-	alph = 'a';
-
-	while (alph <= 'z') 
-	{
-		putchar(alph);
-		alph++;
-	}
-	putchar('\n');
+	c = 'a';
+	while (c <= 'z')
+{
+	putchar(c);
+	c++;
+}
+	putchat('\n');
 	return (0);
-}		
+}
