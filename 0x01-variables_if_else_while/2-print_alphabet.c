@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	char alph;
+	char alph = 'a';
 	while (alph <= 'z')
 	{
 		putchar(alph);
