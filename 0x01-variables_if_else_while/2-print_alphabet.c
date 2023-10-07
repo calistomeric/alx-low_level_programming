@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Return: 0 Sucess
+ * main - A program to print alphabets in lower case
+ * Return - 0 (Success)
  */
 int main(void)
 {
@@ -13,6 +13,6 @@ int main(void)
 	putchar(c);
 	c++;
 }
-	putchat('\n');
+	putchar('\n');
 	return (0);
 }
