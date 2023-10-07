@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - A program that prints possible combination of single numbers in ascending order
+ * main - A program that prints number combination
  * Return: 0 (Success)
  */
 int main(void)
@@ -8,11 +8,13 @@ int main(void)
 	int c;
 
 	for (c = 0; c <= 9; c++)
+{
 		putchar(c + '0');
 		if (c < 9)
 {
 			putchar(',');
 			putchar(' ');
+}
 }
 	putchar('\n');
 	return (0);
