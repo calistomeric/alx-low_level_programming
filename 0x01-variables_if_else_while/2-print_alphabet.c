@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main - A program to print all the alphabet
+ * main - A program that prints alphabet
  * Return: 0 (Success)
  */
 int main(void)
@@ -8,10 +8,11 @@ int main(void)
 	char alph;
 	alph = 'a';
 	while
-	     	(alph <= 'z'){
-		putchar(alph);
-		alph++;
+		(alph <= 'z') {
+			putchar(alph);
+			alph++;
 		}
-	putchar("/n");
+	putchar("\n");
 	return (0);
 }
+			
