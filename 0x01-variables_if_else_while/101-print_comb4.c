@@ -17,7 +17,7 @@ int main(void)
 		{
 			for (c = '0'; c <= '9'; c++)
 			{
-				if (!((a == b) || ( b == c) || (b > c) || (a > b)))
+				if (!((a == b) || (b == c) || (b > c) || (a > b)))
 				{
 					putchar(a);
 					putchar(b);
