@@ -13,8 +13,8 @@ int print_last_digit(int x)
 	if (x < 0)
 	{
 		x = -x;
-		a = x % 10;
 	}
+	a = x % 10;
 	if (a < 0)
 	{
 		a = -a;
