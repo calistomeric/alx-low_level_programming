@@ -22,7 +22,7 @@ int main(void)
 		if (count == 49)
 			print("\n");
 		else
-			print(',');
+			print(", ");
 
 	}
 	return (0);
