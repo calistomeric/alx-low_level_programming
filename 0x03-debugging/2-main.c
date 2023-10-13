@@ -3,7 +3,6 @@
 
 /**
  * main - prints the largest of three integers
- *
  * Return: 0
  */
 
