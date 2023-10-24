@@ -1,25 +1,28 @@
 #include "main.h"
-
 /**
- * _strspn - checks for string present in another string
- * @s: string to look from
- * @accept: search string
- * Return: 0 for success
+ * _strspn - Entry point
+ * @s: input
+ * @accept: input
+ * Return: Always 0 (Success)
  */
-
 unsigned int _strspn(char *s, char *accept)
 {
-	int i, j, len = 0;
+	unsigned int n = 0;
+	int r;
 
-	for (i = 0; accept[i] >= '\0'; i++)
+	while (*s)
 	{
-		for (j = 0; s[j] >= '\0'; j++)
+		for (r = 0; accept[r]; r++)
 		{
-			if (accept[i] == s[j])
-				len++;
-			j++
+			if (*s == accept[r])
+			{
+				n++;
+				break;
+			}
+			else if (accept[r + 1] == '\0')
+				return (n);
 		}
-		i++
+		s++;
 	}
-	return (len);
+	return (n);
 }
